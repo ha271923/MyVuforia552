@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Wine1_Tag4" size="1.000000 1.271468" />
+    <ImageTarget name="Wine1_Tag3" size="1.000000 1.082927" />
+    <ImageTarget name="Wine1_Tag2" size="1.000000 1.043103" />
+    <ImageTarget name="Wine1_Tag1" size="1.000000 1.410569" />
+    <ImageTarget name="mona-lisa_ori" size="1.000000 1.325635" />
+  </Tracking>
+</QCARConfig>
