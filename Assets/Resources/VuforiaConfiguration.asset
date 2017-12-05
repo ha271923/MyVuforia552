@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - QR_code_DB
     - ARObjectScannerDB
     dataSetsToActivate:
+    - QR_code_DB
     - ARObjectScannerDB
   videoBackground:
     clippingMode: 0
