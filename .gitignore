@@ -34,3 +34,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.idea
+Assets/StreamingAssets/build_info.txt
+Assets/StreamingAssets/build_info.txt.meta

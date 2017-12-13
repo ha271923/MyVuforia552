@@ -48,20 +48,53 @@
   <ItemGroup>
      <Compile Include="Assets\Plugins\Editor\Unzip.js" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\MonoBehaviour.cs.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Editor Window.cs.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Function Call From Menu.js.txt" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Scriptable Wizard.cs.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Scriptable Object.cs.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\ARObjectScannerDB.xml" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Empty Class.boo.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\MonoBehaviour.functions.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Custom Editor.cs.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\QR_code_DB.xml" />
      <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Asset Postprocessor.cs.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Empty Class.cs.txt" />
+     <None Include="Assets\StreamingAssets\build_info.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Custom Editor.js.txt" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\AssetPostprocessor.functions.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Empty Class.js.txt" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Custom Editor.boo.txt" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\ScreenLogger\Readme.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\EditorWindow.functions.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\ScriptableWizard.functions.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Editor Window.boo.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\ScriptableObject.functions.txt" />
      <None Include="Assets\zzRuler\readme.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Editor.functions.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\MonoBehaviour.js.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Scriptable Wizard.boo.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Asset Postprocessor.boo.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Asset Postprocessor.js.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Scriptable Wizard.js.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Scriptable Object.js.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Function Call From Menu.cs.txt" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\MonoBehaviour.boo.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Scriptable Object.boo.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Function Call From Menu.boo.txt" />
+     <None Include="Assets\CreateScriptDialog\SmartScriptTemplates\Editor Window.js.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity5.5.2f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -111,6 +144,12 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity5.5.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="Vuforia.UnityExtensions.Editor">
+ <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity5.5.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -120,14 +159,11 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity5.5.2f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <Reference Include="ConsoleE">
+ <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/ConsoleE/Editor/ConsoleE.dll</HintPath>
  </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <Reference Include="SharpCompress.3.5">
+ <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
