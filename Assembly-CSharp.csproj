@@ -88,6 +88,7 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\_demo\Script\BtnScript.cs" />
+     <Compile Include="Assets\_demo\Script\CameraSwitch.cs" />
      <Compile Include="Assets\_demo\Script\vBtnScript.cs" />
      <Compile Include="Assets\zzRuler\zzHorizontalRuler.cs" />
      <Compile Include="Assets\zzRuler\zzVerticalRuler.cs" />
