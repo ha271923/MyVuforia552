@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\3DModeCamera\ThreeDCursor.cs" />
      <Compile Include="Assets\GyroController.cs" />
      <Compile Include="Assets\Hessburg - Triangle Set Square\Scripts\DemoRotations.cs" />
      <Compile Include="Assets\ScreenLogger\Example\Scripts\BouncingBall.cs" />
