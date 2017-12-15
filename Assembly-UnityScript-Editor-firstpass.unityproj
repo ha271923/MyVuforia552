@@ -144,6 +144,12 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity5.5.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="ConsoleE">
+ <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/ConsoleE/Editor/ConsoleE.dll</HintPath>
+ </Reference>
+ <Reference Include="SharpCompress.3.5">
+ <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll</HintPath>
+ </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
  <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
@@ -158,12 +164,6 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity5.5.2f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="ConsoleE">
- <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/ConsoleE/Editor/ConsoleE.dll</HintPath>
- </Reference>
- <Reference Include="SharpCompress.3.5">
- <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
