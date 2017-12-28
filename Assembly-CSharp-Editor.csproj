@@ -172,6 +172,9 @@
     <Reference Include="SharpCompress.3.5">
       <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll</HintPath>
     </Reference>
+    <Reference Include="SyntaxTree.Mono.Cecil">
+      <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
+    </Reference>
     <Reference Include="Vuforia.UnityExtensions.Editor">
       <HintPath>D:/VR/AR_proj/Lesson/MyVuforia552/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
     </Reference>
