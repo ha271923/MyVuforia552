@@ -36,3 +36,9 @@ sysinfo.txt
 *.idea
 Assets/StreamingAssets/build_info.txt
 Assets/StreamingAssets/build_info.txt.meta
+
+# My Android Export Folder
+AndroidExport/
+
+# Force include some file types and folders
+!/Assets/*
